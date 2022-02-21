@@ -3,7 +3,7 @@ import axios from "axios";
 import Post from "../components/Posts";
 const Search = () => {
   const [photo, setPhoto] = useState([]);
-  const [clientId] = useState("MYq3E7dLL-MDJIPtc_bS2aDcJYkRTtwP2c-Um_PXDLw");
+  const [clientId] = useState("6cHqcrmhEGSNE9y0yTrP11nY6uxb7CyubTSgpJXg3Qo");
   const [result, setResult] = useState([]);
 
   const handleSubmit = (event) => {
