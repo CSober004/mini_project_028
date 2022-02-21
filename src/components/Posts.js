@@ -8,8 +8,8 @@ const GetImages = ({ id }) => {
         <div className="row">
           {id.map((datail) => (
             <>
-              <div className="col-4"></div>
-              <div className="col-4 my-2">
+              <div className="col-2"></div>
+              <div className="col-8 my-2">
                 <div className="card card-setting" key={datail.user.id}>
                   <div className="card-header remove-hr-card">
                     <a
@@ -20,6 +20,7 @@ const GetImages = ({ id }) => {
                         src={datail.user.profile_image.small}
                         className="img-profile"
                       />
+                      &nbsp;&nbsp;
                       <span className="text-username">
                         {datail.user.first_name}
                       </span>
@@ -47,7 +48,7 @@ const GetImages = ({ id }) => {
                   </div>
                 </div>
               </div>
-              <div className="col-4"></div>
+              <div className="col-2"></div>
             </>
           ))}
         </div>

@@ -1,6 +1,6 @@
 import React from 'react'
 import Profile from '../components/Profile';
-import ShowImage from '../components/Show_Image';
+import Show_Img from '../components/Show_Image';
 import { useParams } from 'react-router-dom';
 
 function Account() {
@@ -8,7 +8,7 @@ function Account() {
   return (
     <div>
       <Profile id={id} />
-      <ShowImage id={id} />
+      <Show_Img id={id} />
     </div>
   );
 }
